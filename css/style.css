@@ -1,0 +1,51 @@
+/*btn*/
+.btn a{
+	text-decoration: none;
+	color: #fff;
+}
+/*draggable*/
+#draggable{width: 100px; height: 100px; padding: 0.5rem;}
+#draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+/*sortable*/
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%;box-sizing: content-box; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+/*menu*/
+.ui-menu { width: 200px; }
+/*animate*//*effect*/
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+/*utilities*/
+/*position*/
+#parent {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #fbca93;
+    text-align: center;
+  }
+  .positionable {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    background-color: #bcd5e6;
+    text-align: center;
+  }
+  #positionable1 {
+    width: 75px;
+    height: 75px;
+  }
+  #positionable2 {
+    width: 120px;
+    height: 40px;
+  }
+  select, input {
+    margin-left: 15px;
+  }

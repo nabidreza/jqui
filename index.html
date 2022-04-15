@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font links -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title></title>
+  </head>
+  <body class=" bg-primary">
+
+
+    <!-- pages -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary active"><a href="index.html">page1</a></button>
+      <button type="button" class="btn btn-primary"><a href="pages/page2.html">page2</a></button>
+      <button type="button" class="btn btn-primary"><a href="pages/page3.html">page3</a></button>
+    </div>
+    <!-- interactions -->
+    <div class="display-2 text-white text-center">Interactions</div>
+    <div class="container">
+        <h2 class="text-center">sortable</h2>
+        <ul id="sortable" class="overflow-hidden p-4">
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2 class="text-center">dragable</h2>
+        <div id="draggable" class="ui-widget-content">
+              <p>Drag me to my target</p>
+        </div>
+        
+            
+    </div>
+    <!-- accordion -->
+    <div class="display-2 text-white text-center">widgets</div>
+    <div class="container">
+        <h2 class="text-center">accordion</h2>
+        <div id="accordion">
+          <h3>question1</h3>
+          <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit similique libero, et aut error autem mollitia veritatis repellendus, ea necessitatibus dolores odio numquam blanditiis, commodi.</p>
+          </div>
+          <h3>question 2</h3>
+          <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit similique libero, et aut error autem mollitia veritatis repellendus, ea necessitatibus dolores odio numquam blanditiis, commodi.</p>
+          </div>
+          <h3>question 3</h3>
+          <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit similique libero, et aut error autem mollitia veritatis repellendus, ea necessitatibus dolores odio numquam blanditiis, commodi.</p>          
+          </div>
+        </div> 
+        <br>
+        <!-- autocomplete -->
+        <h2 class="text-center">tags</h2>
+        <div class="ui-widget">
+          <label for="tags" class="text-white">Country: </label>
+          <input id="tags">
+        </div>  
+        <br><br>
+        <!-- datepicker --> 
+        <h2 class="text-center">datepicker</h2>
+        <div>
+            <p>Date: <input type="text" id="datepicker" size="30"></p>
+         
+            <p>Animations:<br>
+              <select id="anim">
+                <option value="show">Show (default)</option>
+                <option value="slideDown">Slide down</option>
+                <option value="fadeIn">Fade in</option>
+                <option value="blind">Blind (UI Effect)</option>
+                <option value="bounce">Bounce (UI Effect)</option>
+                <option value="clip">Clip (UI Effect)</option>
+                <option value="drop">Drop (UI Effect)</option>
+                <option value="fold">Fold (UI Effect)</option>
+                <option value="slide">Slide (UI Effect)</option>
+                <option value>None</option>
+              </select>
+            </p>
+        </div>
+        <br><br>
+        <!-- menu -->
+        <h2 class="text-center">menu</h2>
+        <div>
+
+        <ul id="menu">
+          <li>
+            <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+          </li>
+          <li>
+            <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+          </li>
+          <li>
+            <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+          </li>
+          <li class="ui-state-disabled">
+            <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+          </li>
+          <li>
+            <div>Playback</div>
+            <ul>
+              <li>
+                <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-play"></span>Play</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>Learn more about this menu</div>
+          </li>
+        </ul>            
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- js links -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

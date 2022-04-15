@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font links -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+
+    <title></title>
+  </head>
+  <body class=" bg-primary">
+
+
+    <!-- pages -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary "><a href="../index.html">page1</a></button>
+      <button type="button" class="btn btn-primary "><a class="abtn" href="page2.html">page2</a></button>
+      <button type="button" class="btn btn-primary active"><a href="page3.html">page3</a></button>
+    </div>
+<!-- utilities -->
+    <h2 class="text-center display-3 text-white">utilities</h2>
+
+<div id="parent">
+  <p>
+  This is the position parent element.
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable1">
+  <p>
+  to position
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable2">
+  <p>
+  to position 2
+  </p>
+</div>
+ 
+<div style="padding: 20px; margin-top: 75px;">
+  position...
+  <div style="padding-bottom: 20px;">
+    <b>my:</b>
+    <select id="my_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="my_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>at:</b>
+    <select id="at_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="at_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>collision:</b>
+    <select id="collision_horizontal">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+    <select id="collision_vertical">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+  </div>
+  <br><br><br>
+  <!-- widget factory -->
+  <h2 class="text-center">widget factory</h2>
+  <div>
+    <div id="my-widget1">color me</div>
+    <div id="my-widget2">color me</div>
+    <button id="disable">Toggle disabled option</button>
+    <button id="green">Go green</button>
+  </div>
+</div>
+
+
+    <!-- js links -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
